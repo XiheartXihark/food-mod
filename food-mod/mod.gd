@@ -1,6 +1,6 @@
 extends Reference
 
-const mod_name = food-mod
+const mod_name : String = "food-mod"
 
 func load(modloader: Reference, mod_info, tree: SceneTree):
     #Added Symbols
@@ -29,8 +29,8 @@ func load(modloader: Reference, mod_info, tree: SceneTree):
         modloader.add_symbol_patch("res://" + mod_name + "/symbols/patches/Removed.gd", {"id": i})
 
 func modify_starting_symbols(current):
-    old = ["pearl", "coin", "cat", "flower", "cherry"]
-    new = ["fchef", "sugar", "wheat", "cheese"]
+    var old = ["pearl", "coin", "cat", "flower", "cherry"]
+    var new = ["fchef", "sugar", "wheat", "cheese"]
     for symbol in old:
         current.erase(symbol)
     for symbol in new:

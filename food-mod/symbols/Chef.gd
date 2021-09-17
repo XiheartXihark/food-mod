@@ -9,7 +9,7 @@ func init(modloader: Reference, params):
     self.value = 2
     self.values = []
     self.rarity = "uncommon"
-    self.groups = ["human", "organism"]
+    self.groups = ["human", "organism", "doglikes"]
     
     self.texture = load_texture("res://food-mod/symbols/Chef.png")
     self.name = "Chef"
@@ -29,8 +29,8 @@ func add_conditional_effects(symbol, adjacent):
 
 func check_recipes(symbol, adjacent, symbol_adds, used):
     var recipes = {
-        "sandwich": ["bread", "cheese", "meat"]
-        "meat_bun": ["bread", "egg", "meat"]
+        "sandwich": ["bread", "cheese", "meat"],
+        "meat_bun": ["bread", "egg", "meat"],
         "jam-watermelon": ["watermelon", "sugar"],
         "jam-strawberry": ["strawberry", "sugar"],
         "jam-apple": ["apple", "sugar"],
