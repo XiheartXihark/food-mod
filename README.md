@@ -12,10 +12,27 @@ Using symbols to transform adjacent symbols is the core of this mod. Currently t
 <details>
 <summary>Recipes</summary>
  
-- Any fruit (except Coconut) + Sugar = Jam (unique for each fruit)
+ Chef:
+- Any fruit (except Coconut and Pear) + Sugar = Jam (unique for each fruit)
 - Bread + Cheese + Meat = Sandwich
 - Bread + Egg + Meat = Meat Bun
 - Egg + Milk = Scrambled Eggs
+
+Baker:
+- Bread + Honey = Sticky Bun
+</details>
+
+# Version 1.0.1
+Made adjustments to Chef code. Baker now has recipes (only one currently).
+
+<details>
+<summary>Changes</summary>
+
+- ![Sticky Bun](/food-mod/symbols/Sticky-Bun.png) Sticky Bun
+    - Rare
+    - Value: 5
+
+Honey is now an ingredient.
 </details>
 
 # Version 1.0.0

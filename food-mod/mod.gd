@@ -23,7 +23,7 @@ func load(modloader: Reference, mod_info, tree: SceneTree):
 
     #Removed symbols
     var removed = [
-        "chef", "crow", "goose", "highlander", "magpie", "void_fruit"
+        "chef", "crow", "goose", "highlander", "light_bulb", "magpie", "matryoshka_doll_1", "sloth", "owl", "void_fruit"
     ]
     for i in removed:
         modloader.add_symbol_patch("res://" + mod_name + "/symbols/patches/Removed.gd", {"id": i})
