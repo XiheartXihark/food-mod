@@ -1,5 +1,4 @@
-# food-mod
- Xihark's Food Mod
+#  Xihark's Food Mod
 
 Install requires LuckyAPI found here: https://github.com/ValgoBoi/LuckyAPI
 
