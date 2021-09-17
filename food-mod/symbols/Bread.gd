@@ -14,4 +14,4 @@ func init(modloader: Reference, params):
     
     self.texture = load_texture("res://food-mod/symbols/Bread.png")
     self.name = "Bread"
-    self.description = "<icon_cook> can combine this with <icon_cheese> and <icon_meat> to make <icon_sandwich>."
+    self.description = ""

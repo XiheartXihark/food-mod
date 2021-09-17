@@ -5,13 +5,13 @@ func init(modloader: Reference, params):
     # Set this symbol's reference to the modloader. Always include this line.
     self.modloader = modloader
     
-    self.id = "meat"
-    self.value = 2
+    self.id = "meat_bun"
+    self.value = 5
     self.values = []
-    self.rarity = "uncommon"
-    self.groups = ["ingredient"]
-    #self.findable = false
+    self.rarity = "rare"
+    self.groups = ["conlikes"]
+    self.findable = false
     
-    self.texture = load_texture("res://food-mod/symbols/Meat.png")
-    self.name = "Meat"
+    self.texture = load_texture("res://food-mod/symbols/Meat-Bun.png")
+    self.name = "Meat Bun"
     self.description = ""

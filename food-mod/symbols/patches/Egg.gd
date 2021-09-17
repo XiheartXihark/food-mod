@@ -4,7 +4,8 @@ var value_index: int
 
 func init(modloader: Reference, params):
     self.modloader = modloader
-    self.id = "goose"
+    self.id = "egg"
 
-func can_find_symbol(symbol_grid):
-    return false
+func patch_groups(groups):
+    groups.push_back("ingredient")
+    return groups

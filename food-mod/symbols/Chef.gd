@@ -5,7 +5,7 @@ func init(modloader: Reference, params):
     # Set this symbol's reference to the modloader. Always include this line.
     self.modloader = modloader
     
-    self.id = "cook"
+    self.id = "fchef"
     self.value = 2
     self.values = []
     self.rarity = "uncommon"
@@ -21,13 +21,16 @@ func add_conditional_effects(symbol, adjacent):
 
     check_recipes(symbol, adjacent, symbol_adds, used)
     while not used.empty():
-        symbol.add_effect_for_symbol(used.pop_back(), {"comparisons": [], "anim": "jump", "value_to_change": "destroyed", "diff": true})
+        symbol.add_effect_for_symbol(used.pop_back(), {"comparisons": [], "value_to_change": "destroyed", "diff": true})
+        symbol.add_effect(effect().animate("jump", 0, symbol))
     
     if symbol_adds.size() > 0:
         symbol.add_effect({"comparisons": [], "tiles_to_add": symbol_adds})
 
 func check_recipes(symbol, adjacent, symbol_adds, used):
     var recipes = {
+        "sandwich": ["bread", "cheese", "meat"]
+        "meat_bun": ["bread", "egg", "meat"]
         "jam-watermelon": ["watermelon", "sugar"],
         "jam-strawberry": ["strawberry", "sugar"],
         "jam-apple": ["apple", "sugar"],
@@ -36,7 +39,7 @@ func check_recipes(symbol, adjacent, symbol_adds, used):
         "jam-coconut": ["coconut_half", "sugar"],
         "jam-cherry": ["cherry", "sugar"],
         "jam-banana": ["banana", "sugar"],
-        "sandwich": ["bread", "cheese", "meat"]
+        "scrambled-eggs": ["egg", "milk"]
     }
     var ingredients = {}
     var current_recipe = {}

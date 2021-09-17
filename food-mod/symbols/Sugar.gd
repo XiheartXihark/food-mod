@@ -13,4 +13,4 @@ func init(modloader: Reference, params):
     
     self.texture = load_texture("res://food-mod/symbols/Sugar.png")
     self.name = "Sugar"
-    self.description = "<icon_cook> can combine this with <all_or_jam_ingredient> to make <all_or_jam>."
+    self.description = ""
