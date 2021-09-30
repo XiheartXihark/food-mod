@@ -36,7 +36,8 @@ func add_conditional_effects(symbol, adjacent):
 
     check_recipes(symbol, adjacent, symbol_adds, used)
     for i in used:
-		symbol.add_effect_for_symbol(i, effect().if_group("ingredient").set_destroyed().animate("shake", 0, [symbol, i]))
+        symbol.add_effect_for_symbol(i, effect().if_group("ingredient").set_destroyed().animate("shake", 0, [symbol, i]))
+
     #while not used.empty():
     #    symbol.add_effect_for_symbol(used.pop_back(), {"comparisons": [], "value_to_change": "destroyed", "diff": true})
     #    symbol.add_effect(effect().animate("bounce", 0, symbol))
