@@ -2,6 +2,7 @@ extends "res://modloader/ModSymbol.gd"
 
 var recipes = {
     "sticky-bun": ["bread", "honey"],
+    "brownie": ["bread", "chocolate", "sugar"]
 }
 
 # Called when the symbol is first initialized.

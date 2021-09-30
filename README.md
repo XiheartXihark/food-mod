@@ -19,6 +19,21 @@ Using symbols to transform adjacent symbols is the core of this mod. Currently t
 
 Baker:
 - Bread + Honey = Sticky Bun
+- Bread + Chocolate + Sugar = Brownie
+</details>
+
+# Version 1.0.2
+
+<details>
+<summary>New symbols</summary>
+
+- ![Chocolate] (/food-mod/symbols/Chocolate.png) Chocolate
+    - Common
+    - Value: 1
+- ![Brownie] (/food-mod/symbols/Brownie.png) Brownie
+    - Uncommon
+    - Value: 3
+
 </details>
 
 # Version 1.0.1
