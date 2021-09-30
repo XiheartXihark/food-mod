@@ -27,10 +27,10 @@ Baker:
 <details>
 <summary>New symbols</summary>
 
-- ![Chocolate] (/food-mod/symbols/Chocolate.png) Chocolate
+- ![Chocolate](/food-mod/symbols/Chocolate.png) Chocolate
     - Common
     - Value: 1
-- ![Brownie] (/food-mod/symbols/Brownie.png) Brownie
+- ![Brownie](/food-mod/symbols/Brownie.png) Brownie
     - Uncommon
     - Value: 3
 
