@@ -5,7 +5,7 @@ const mod_name : String = "food-mod"
 func load(modloader: Reference, mod_info, tree: SceneTree):
     #Added Symbols
     var added = [
-        "Baker", "Bread", "Connoisseur", "Chef", "Jam-Apple", "Jam-Banana",
+        "Baker", "Bread", "Brownie", "Carrot", "Chocolate", "Connoisseur", "Chef", "Jam-Apple", "Jam-Banana",
         "Jam-Cherry", "Jam-Coconut", "Jam-Orange", "Jam-Peach", "Jam-Strawberry",
         "Jam-Watermelon", "Meat", "Sandwich", "Scrambled-Eggs", "Sugar", "Wheat"
     ]
