@@ -13,8 +13,8 @@ Using symbols to transform adjacent symbols is the core of this mod. Currently t
  
  Chef:
 - Any fruit (except Coconut and Pear) + Sugar = Jam (unique for each fruit)
-- Bread + Cheese + Meat = Sandwich
-- Bread + Egg + Meat = Meat Bun
+- Bread + Cheese + Drumstick = Sandwich
+- Bread + Egg + Beef = Meat Bun
 - Egg + Milk = Scrambled Eggs
 
 Baker:
@@ -24,15 +24,30 @@ Baker:
 
 # Version 1.0.2
 
-<details>
-<summary>New symbols</summary>
+## Changes
+Meat renamed to drumstick. Added new symbols. Fixed some bugs. Meat Bun recipe changed.
 
-- ![Chocolate](/food-mod/symbols/Chocolate.png) Chocolate
-    - Common
-    - Value: 1
+<details>
+<summary>New Symbols</summary>
+
+- ![Beef](/food-mod/symbols/Beef.png) Beef
+    - Uncommon
+    - Value: 2
 - ![Brownie](/food-mod/symbols/Brownie.png) Brownie
     - Uncommon
     - Value: 3
+- ![Butcher](/food-mod/symbols/Butcher.png) Butcher
+    - Uncommon
+    - Value: 2
+- ![Carrot](/food-mod/symbols/Carrot.png) Carrot
+    - Common
+    - Value: 1
+- ![Chocolate](/food-mod/symbols/Chocolate.png) Chocolate
+    - Common
+    - Value: 1
+- ![Potato](/food-mod/symbols/Potato.png) Potato
+    - Common
+    - Value: 1
 
 </details>
 

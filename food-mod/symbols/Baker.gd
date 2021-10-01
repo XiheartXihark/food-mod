@@ -14,7 +14,7 @@ func init(modloader: Reference, params):
     self.value = 2
     self.values = []
     self.rarity = "uncommon"
-    self.groups = ["human", "organism"]
+    self.groups = ["human", "organism", "doglikes"]
     
     self.texture = load_texture("res://food-mod/symbols/Baker.png")
     self.name = "Baker"

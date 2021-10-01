@@ -5,9 +5,9 @@ const mod_name : String = "food-mod"
 func load(modloader: Reference, mod_info, tree: SceneTree):
     #Added Symbols
     var added = [
-        "Baker", "Bread", "Brownie", "Carrot", "Chocolate", "Connoisseur", "Chef", "Jam-Apple", "Jam-Banana",
-        "Jam-Cherry", "Jam-Coconut", "Jam-Orange", "Jam-Peach", "Jam-Strawberry",
-        "Jam-Watermelon", "Meat", "Sandwich", "Scrambled-Eggs", "Sugar", "Wheat"
+        "Baker", "Beef", "Bread", "Brownie", "Butcher", "Carrot", "Chocolate", "Connoisseur", "Chef", "Drumstick",
+        "Jam-Apple", "Jam-Banana", "Jam-Cherry", "Jam-Coconut", "Jam-Orange", "Jam-Peach", "Jam-Strawberry", "Jam-Watermelon",
+        "Potato", "Sandwich", "Scrambled-Eggs", "Sugar", "Wheat"
     ]
     for i in added:
         modloader.add_mod_symbol("res://" + mod_name + "/symbols/" + i + ".gd")
@@ -35,5 +35,6 @@ func modify_starting_symbols(current):
         current.erase(symbol)
     for symbol in new:
         current.push_back(symbol)
+
+    #current = ["butcher", "chicken", "chicken", "chicken", "cow", "cow", "cow"]
     return current
-    #return ["sun", "wheat"]

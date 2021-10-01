@@ -1,8 +1,8 @@
 extends "res://modloader/ModSymbol.gd"
 
 var recipes = {
-    "sandwich": ["bread", "cheese", "meat"],
-    "meat-bun": ["bread", "egg", "meat"],
+    "sandwich": ["bread", "cheese", "drumstick"],
+    "meat-bun": ["bread", "egg", "beef"],
     "jam-watermelon": ["watermelon", "sugar"],
     "jam-strawberry": ["strawberry", "sugar"],
     "jam-apple": ["apple", "sugar"],
