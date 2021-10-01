@@ -29,6 +29,7 @@ Baker:
 - New recipe added to Chef
 - Updated groups for various symbols.
 - Correctly noting all removed symbols:
+
 ![Crow](https://static.wikia.nocookie.net/luck-be-a-landlord/images/f/fa/Crow.png/revision/latest/scale-to-width-down/24?cb=20210224153626)
 ![Goose](https://static.wikia.nocookie.net/luck-be-a-landlord/images/d/dd/Goose.png/revision/latest/scale-to-width-down/24?cb=20210224153643)
 ![Highlander](https://static.wikia.nocookie.net/luck-be-a-landlord/images/3/34/Highlander.png/revision/latest/scale-to-width-down/24?cb=20210813171537) 
