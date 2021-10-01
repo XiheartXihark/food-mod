@@ -2,6 +2,7 @@ extends "res://modloader/ModSymbol.gd"
 
 var recipes = {
     "sandwich": ["bread", "cheese", "drumstick"],
+    "salad": ["lettuce", "carrot", "tomato"],
     "meat-bun": ["bread", "egg", "beef"],
     "jam-watermelon": ["watermelon", "sugar"],
     "jam-strawberry": ["strawberry", "sugar"],

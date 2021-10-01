@@ -16,15 +16,45 @@ Using symbols to transform adjacent symbols is the core of this mod. Currently t
 - Bread + Cheese + Drumstick = Sandwich
 - Bread + Egg + Beef = Meat Bun
 - Egg + Milk = Scrambled Eggs
+- Lettuce + Carrot + Tomato = Salad
 
 Baker:
 - Bread + Honey = Sticky Bun
 - Bread + Chocolate + Sugar = Brownie
 </details>
 
-# Version 1.0.2
+# Version History
 
-## Changes
+# v1.0.3
+- New recipe added to Chef
+- Updated groups for various symbols.
+- Correctly noting all removed symbols:
+![Crow](https://static.wikia.nocookie.net/luck-be-a-landlord/images/f/fa/Crow.png/revision/latest/scale-to-width-down/24?cb=20210224153626)
+![Goose](https://static.wikia.nocookie.net/luck-be-a-landlord/images/d/dd/Goose.png/revision/latest/scale-to-width-down/24?cb=20210224153643)
+![Highlander](https://static.wikia.nocookie.net/luck-be-a-landlord/images/3/34/Highlander.png/revision/latest/scale-to-width-down/24?cb=20210813171537) 
+![Light Bulb](https://static.wikia.nocookie.net/luck-be-a-landlord/images/2/2c/Light_Bulb.png/revision/latest/scale-to-width-down/24?cb=20210224153655)
+![Magpie](https://static.wikia.nocookie.net/luck-be-a-landlord/images/1/17/Magpie.png/revision/latest/scale-to-width-down/24?cb=20210224153658)
+![Matryoshka Doll](https://static.wikia.nocookie.net/luck-be-a-landlord/images/d/dc/Matryoshka_Doll.png/revision/latest/scale-to-width-down/24?cb=20210301002313)
+![Owl](https://static.wikia.nocookie.net/luck-be-a-landlord/images/5/5c/Owl.png/revision/latest/scale-to-width-down/24?cb=20210224153714)
+![Present](https://static.wikia.nocookie.net/luck-be-a-landlord/images/0/02/Present.png/revision/latest/scale-to-width-down/24?cb=20210611173625)
+![Sloth](https://static.wikia.nocookie.net/luck-be-a-landlord/images/f/fa/Sloth.png/revision/latest/scale-to-width-down/24?cb=20210224153729)
+![Void Fruit](https://static.wikia.nocookie.net/luck-be-a-landlord/images/3/33/Void_Fruit.png/revision/latest/scale-to-width-down/24?cb=20210611173611)
+
+<details>
+<summary>New Symbols</summary>
+
+- ![Lettuce](/food-mod/symbols/Lettuce.png) Lettuce
+    - Common
+    - Value: 1
+- ![Tomato](/food-mod/symbols/Tomato.png) Tomato
+    - Common
+    - Value: 1
+- ![Salad](/food-mod/symbols/Salad.png) Salad
+    - Uncommon
+    - Value: 4
+</details>
+
+# Version 1.0.2
 Meat renamed to drumstick. Added new symbols. Fixed some bugs. Meat Bun recipe changed.
 
 <details>
@@ -135,5 +165,5 @@ Items with updated groups and/or descriptions only:
 <details>
 <summary>Removed Symbols</summary>
  
- ![Crow](https://static.wikia.nocookie.net/luck-be-a-landlord/images/f/fa/Crow.png/revision/latest/scale-to-width-down/24?cb=20210224153626) ![Goose](https://static.wikia.nocookie.net/luck-be-a-landlord/images/d/dd/Goose.png/revision/latest/scale-to-width-down/24?cb=20210224153643) ![Highlander](https://static.wikia.nocookie.net/luck-be-a-landlord/images/3/34/Highlander.png/revision/latest/scale-to-width-down/24?cb=20210813171537) ![Magpie](https://static.wikia.nocookie.net/luck-be-a-landlord/images/1/17/Magpie.png/revision/latest/scale-to-width-down/24?cb=20210224153658) ![Void Fruit](https://static.wikia.nocookie.net/luck-be-a-landlord/images/3/33/Void_Fruit.png/revision/latest/scale-to-width-down/24?cb=20210611173611)
+ ![Crow](https://static.wikia.nocookie.net/luck-be-a-landlord/images/f/fa/Crow.png/revision/latest/scale-to-width-down/24?cb=20210224153626) ![Goose](https://static.wikia.nocookie.net/luck-be-a-landlord/images/d/dd/Goose.png/revision/latest/scale-to-width-down/24?cb=20210224153643) ![Highlander](https://static.wikia.nocookie.net/luck-be-a-landlord/images/3/34/Highlander.png/revision/latest/scale-to-width-down/24?cb=20210813171537)  ![Light Bulb](https://static.wikia.nocookie.net/luck-be-a-landlord/images/2/2c/Light_Bulb.png/revision/latest/scale-to-width-down/24?cb=20210224153655) ![Magpie](https://static.wikia.nocookie.net/luck-be-a-landlord/images/1/17/Magpie.png/revision/latest/scale-to-width-down/24?cb=20210224153658) ![Void Fruit](https://static.wikia.nocookie.net/luck-be-a-landlord/images/3/33/Void_Fruit.png/revision/latest/scale-to-width-down/24?cb=20210611173611)
 </details>

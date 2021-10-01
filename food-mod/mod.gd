@@ -7,7 +7,7 @@ func load(modloader: Reference, mod_info, tree: SceneTree):
     var added = [
         "Baker", "Beef", "Bread", "Brownie", "Butcher", "Carrot", "Chocolate", "Connoisseur", "Chef", "Drumstick",
         "Jam-Apple", "Jam-Banana", "Jam-Cherry", "Jam-Coconut", "Jam-Orange", "Jam-Peach", "Jam-Strawberry", "Jam-Watermelon",
-        "Potato", "Sandwich", "Scrambled-Eggs", "Sugar", "Wheat"
+        "Lettuce", "Potato", "Salad", "Sandwich", "Scrambled-Eggs", "Sugar", "Tomato", "Wheat"
     ]
     for i in added:
         modloader.add_mod_symbol("res://" + mod_name + "/symbols/" + i + ".gd")
@@ -23,7 +23,7 @@ func load(modloader: Reference, mod_info, tree: SceneTree):
 
     #Removed symbols
     var removed = [
-        "chef", "crow", "goose", "highlander", "light_bulb", "magpie", "matryoshka_doll_1", "sloth", "owl", "void_fruit"
+        "chef", "crow", "goose", "highlander", "light_bulb", "magpie", "matryoshka_doll_1", "sloth", "owl", "void_fruit", "present"
     ]
     for i in removed:
         modloader.add_symbol_patch("res://" + mod_name + "/symbols/patches/Removed.gd", {"id": i})

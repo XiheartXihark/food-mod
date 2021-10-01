@@ -1,6 +1,6 @@
 {
     "id": "food-mod",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "authors": ["Xihark"],
     "name": "Xihark's Food Mod",
     "description": "Adds new symbols and modifies existing symbols.",
