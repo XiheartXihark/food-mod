@@ -8,3 +8,7 @@ func init(modloader: Reference, params):
 
 func can_find_symbol(symbol_grid):
     return false
+
+func patch_groups(groups):
+    groups.clear()
+    return groups

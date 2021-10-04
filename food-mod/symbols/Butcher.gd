@@ -14,7 +14,7 @@ func init(modloader: Reference, params):
     
     self.texture = load_texture("res://food-mod/symbols/Butcher.png")
     self.name = "Butcher"
-    #self.description = "<color_E14A68>Destroys<end> adjacent <icon_chicken> adding <icon_coin><color_FBF236><values_2><end> and <icon_drumstick><values_1>. <color_E14A68>Destroys<end> <icon_cow> adding <icon_coin><color_FBF236><values_2><end> and <icon_beef><values_3>."
+    self.description = "<color_E14A68>Destroys<end> adjacent <icon_chicken> adding <icon_coin><color_FBF236><values_2><end> and <icon_drumstick><values_1>. <color_E14A68>Destroys<end> <icon_cow> adding <icon_coin><color_FBF236><values_2><end> and <icon_beef><values_3>."
 
 func add_conditional_effects(symbol, adjacent):
     var symbol_adds = []

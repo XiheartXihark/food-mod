@@ -9,9 +9,9 @@ func init(modloader: Reference, params):
     self.value = 3
     self.values = []
     self.rarity = "uncommon"
-    self.groups = ["conlikes"]
+    self.groups = ["conlikes", "damelikes"]
     self.findable = false
     
     self.texture = load_texture("res://food-mod/symbols/Brownie.png")
     self.name = "Brownie"
-    self.description = ""
+    self.description = "<color_666666><icon_dame> Likes this!<end>"

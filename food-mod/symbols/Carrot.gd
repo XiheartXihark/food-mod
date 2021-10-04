@@ -9,7 +9,7 @@ func init(modloader: Reference, params):
     self.value = 1
     self.values = []
     self.rarity = "common"
-    self.groups = ["plant", "ingredient", "food"]
+    self.groups = ["plant", "ingredient", "food", "farmerlikes"]
     
     self.texture = load_texture("res://food-mod/symbols/Carrot.png")
     self.name = "Carrot"

@@ -1,6 +1,7 @@
 extends "res://modloader/ModSymbol.gd"
 
 var recipes = {
+    "beef-stew": ["beef", "tomato", "carrot", "potato"],
     "sandwich": ["bread", "cheese", "drumstick"],
     "salad": ["lettuce", "carrot", "tomato"],
     "meat-bun": ["bread", "egg", "beef"],

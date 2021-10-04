@@ -9,11 +9,11 @@ func init(modloader: Reference, params):
     self.value = 2
     self.values = []
     self.rarity = "rare"
-    self.groups = ["human", "organism"]
+    self.groups = ["human", "organism", "doglikes"]
     
     self.texture = load_texture("res://food-mod/symbols/Connoisseur.png")
     self.name = "Connoisseur"
-    self.description = "Destroys adjacent <all_and_conlikes>. Permanently gives <icon_coin> equal to the value of symbols destroyed this way."
+    self.description = "<color_E14A68>Destroys<end> adjacent <all_and_conlikes>. Permanently gives <icon_coin> equal to the value of symbols destroyed this way."
 
 func add_conditional_effects(symbol, adjacent):
     for i in adjacent:

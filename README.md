@@ -12,22 +12,38 @@ Using symbols to transform adjacent symbols is the core of this mod. Currently t
 <summary>Recipes</summary>
  
  Chef:
-- Any fruit (except Coconut and Pear) + Sugar = Jam (unique for each fruit)
-- Bread + Cheese + Drumstick = Sandwich
-- Bread + Egg + Beef = Meat Bun
-- Egg + Milk = Scrambled Eggs
-- Lettuce + Carrot + Tomato = Salad
+- Jam = Any fruit (except Coconut and Pear) + Sugar
+- Sandwich = Bread + Cheese + Drumstick
+- Meat Bun = Bread + Egg + Beef
+- Scrambled Eggs = Egg + Milk
+- Salad = Lettuce + Carrot + Tomato
+- Beef Stew = Beef + Carrot + Tomato + Potato
 
 Baker:
-- Bread + Honey = Sticky Bun
-- Bread + Chocolate + Sugar = Brownie
+- Sticky Bun = Bread + Honey
+- Brownie = Bread + Chocolate + Sugar
 </details>
 
 # Version History
 
-# v1.0.3
+## v1.0.4
+- Description of baker fixed
+- Added new recipe
+- Farmer now buffs vegetables
+- Removed symbols no longer display in descriptions
+- Dame now eats Brownie
+
+<details>
+<summary>New Symbols</summary>
+
+- ![Beef Stew](/food-mod/symbols/Beef-Stew.png) Beef Stew
+    - Very Rare
+    - Value: 8
+</details>
+
+## v1.0.3
 - New recipe added to Chef
-- Updated groups for various symbols.
+- Updated groups for various symbols
 - Correctly noting all removed symbols:
 
 ![Crow](https://static.wikia.nocookie.net/luck-be-a-landlord/images/f/fa/Crow.png/revision/latest/scale-to-width-down/24?cb=20210224153626)
@@ -55,8 +71,11 @@ Baker:
     - Value: 4
 </details>
 
-# Version 1.0.2
-Meat renamed to drumstick. Added new symbols. Fixed some bugs. Meat Bun recipe changed.
+## Version 1.0.2
+- Meat renamed to drumstick
+- Added new symbols
+- Fixed some bugs
+- Meat Bun recipe changed
 
 <details>
 <summary>New Symbols</summary>
@@ -82,22 +101,22 @@ Meat renamed to drumstick. Added new symbols. Fixed some bugs. Meat Bun recipe c
 
 </details>
 
-# Version 1.0.1
-Made adjustments to Chef code. Baker now has recipes (only one currently).
+## Version 1.0.1
+- Made adjustments to Chef code
+- Added recipe for Baker
+- Honey is now an ingredient
 
 <details>
-<summary>Changes</summary>
+<summary>New Symbols</summary>
 
 - ![Sticky Bun](/food-mod/symbols/Sticky-Bun.png) Sticky Bun
     - Rare
     - Value: 5
-
-Honey is now an ingredient.
 </details>
 
-# Version 1.0.0
+## Version 1.0.0
 <details>
-<summary>Added Symbols</summary>
+<summary>New Symbols</summary>
  
 - ![Baker](/food-mod/symbols/Baker.png) Baker
     - Uncommon
